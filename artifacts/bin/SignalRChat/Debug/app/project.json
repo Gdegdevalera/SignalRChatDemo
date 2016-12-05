@@ -1,0 +1,43 @@
+{
+  "webroot": "wwwroot",
+  "version": "1.0.0-*",
+  "dependencies": {
+    "SignalRChat": "1.0.0"
+  },
+  "commands": {
+    "web": "Microsoft.AspNet.Hosting --config hosting.ini"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Drawing": "4.0.0.0",
+        "System.Web": "4.0.0.0"
+      }
+    }
+  },
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "scripts": {
+    "prepublish": [
+      "npm install",
+      "bower install",
+      "gulp clean",
+      "gulp min"
+    ]
+  },
+  "resources": [
+    "Resources/noAvatar.jpg"
+  ],
+  "entryPoint": "SignalRChat",
+  "loadable": false
+}

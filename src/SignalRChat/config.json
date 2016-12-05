@@ -1,0 +1,10 @@
+{
+    "StorageSettings": {
+        "mongoconnection": "mongodb://localhost:27017",
+        "database": "local"
+    },
+    "CommonSettings": {
+        "maxUploadImageHeight": 400,
+        "maxUploadImageWidth": 400
+    }    
+}

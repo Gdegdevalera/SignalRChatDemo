@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SignalRChat</name>
+    </assembly>
+    <members>
+        <member name="M:SignalRChat.Hubs.ChatHub.#ctor(SignalRChat.Domain.IRepository)">
+            <summary>
+            Example dependency-injected hub
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="F:SignalRChat.Hubs.ChatHub.Users">
+            <summary>
+            Maintain a list of connected users
+            </summary>
+        </member>
+        <member name="M:SignalRChat.Hubs.ChatHub.Send(System.String,System.String)">
+            <summary>
+            Send a chat message
+            </summary>
+            <param name="name"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:SignalRChat.Hubs.ChatHub.Count(System.Int32)">
+            <summary>
+            Maintain a count of connected users
+            </summary>
+            <param name="count"></param>
+        </member>
+        <member name="M:SignalRChat.Hubs.ChatHub.Subscribe(System.String)">
+            <summary>
+            Subscribe an active online user by adding to list
+            </summary>
+            <param name="displayName"></param>
+        </member>
+        <member name="M:SignalRChat.Hubs.ChatHub.GetUsersOnline">
+            <summary>
+            Retrive a list of online users
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,76 @@
+﻿.body-content {
+    padding-top: 50px;
+}
+
+.row .chattable-row {
+    height: 350px;
+}
+
+.chattable-col {
+    height: 350px;
+    /*padding: 15px;*/
+}
+
+.chattable-col ul {
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+    height: 325px;
+}
+
+.chatbox ul {
+    /*padding: 5px;*/
+}
+
+#userlist {
+    background-color: rgba(0, 64, 128, 0.1);
+    border-radius: 10px;
+}
+
+.chatbox {
+    padding: 10px;
+    border-radius: 15px;
+    border-width: thin;
+    border-color: rgba(0, 64, 128, 0.25);
+    border-style: solid;
+}
+
+.avatarImg {
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+}
+
+.avatarBlock {
+	float: left;
+	clear: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.nameBlock {
+	float: left;
+	margin-top: 5px;
+}
+
+.timeBlock {
+	float: right
+}
+
+.chat-list {
+	margin-top: 10px;
+    padding-top: 10px;
+}
+
+#chatinput input[type="text"] {
+    width: 90%;
+}
+
+.navbar-inverse .navbar-brand {
+    color: lightblue;
+}
+
+#closeDialogBtn {
+	float:right
+}
+
